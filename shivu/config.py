@@ -2,18 +2,19 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "6765826972"
-    sudo_users = "6845325416", "6765826972"
-    GROUP_ID = -1002133191051
-    TOKEN = "6707490163:AAHZzqjm3rbEZsObRiNaT7DMtw_i5WPo_0o"
-    mongo_url = "mongodb+srv://HaremDBBot:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"
+    OWNER_ID = "7347112176"
+    sudo_users = "7347112176", "1813373023"
+    GROUP_ID = -1002334873346
+    TOKEN = "7211096764:AAH8rXDgpPJ4uF2HfDn6J5DvMcEVgFCQTFY"
+    mongo_url = "mongodb+srv://MANGOOO:
+MANGOOO@cluster0.oyj44.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
-    SUPPORT_CHAT = "Collect_em_support"
-    UPDATE_CHAT = "Collect_em_support"
-    BOT_USERNAME = "Collect_Em_AllBot"
-    CHARA_CHANNEL_ID = "-1002133191051"
-    api_id = 26626068
-    api_hash = "bf423698bcbe33cfd58b11c78c42caa2"
+    SUPPORT_CHAT = "Collect_em"
+    UPDATE_CHAT = "Collect_emsup"
+    BOT_USERNAME = "Collectembot"
+    CHARA_CHANNEL_ID = "2395474751"
+    api_id = 21185517
+    api_hash = "ae48b16aa67e36f703b53ad2dd2377fa"
 
     
 class Production(Config):
